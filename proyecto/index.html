@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ficha del Gato</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <video autoplay muted loop id="background-video">
+        <source src="./img/istockphoto-1410885158-640_adpp_is.mp4" type="video/mp4">
+    </video>
+    <div class="card">
+        <div class="header">
+            <h1>Juanito</h1>
+            <button id="close-btn" class="close-btn">X</button>
+        </div>
+        <div class="image-container">
+            <img src="./img/11zon_cropped.png" alt="Imagen del Gato" id="cat-image">
+        </div>
+        <div class="info">
+            <p>Edad: <span id="edad-label">Seleccionar</span> <button id="edad-btn">Seleccionar</button></p>
+            <p>Color de ojos: <span id="color-ojos-label">Seleccionar</span> <button id="color-ojos-btn">Seleccionar</button></p>
+            <p>Sexo: <span id="sexo-label">Seleccionar</span> <button id="sexo-btn">Seleccionar</button></p>
+        </div>
+        <div class="footer">
+            <p>Raza: Persa</p>
+        </div>
+    </div>
+
+    <script src="./js/script.js"></script>
+</body>
+</html>
